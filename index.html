@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Premium Products</h1>
+    </header>
+
+    <section class="filters">
+        <button onclick="filterProducts('all')">View All</button>
+        <button onclick="filterProducts('rocks')">Karupatti</button>
+        <button onclick="filterProducts('wood')">Cashews</button>
+        <button onclick="filterProducts('soil')">Coconuts</button>
+        <button onclick="filterProducts('tanks')">Bananas</button>
+    </section>
+
+    <section class="product-grid">
+        <div class="product" data-category="rocks">
+            <img src="/photos/karupatti.jpg" alt="Rock">
+            <h2>Karupatti</h2>
+            <p>Variant: Premium</p>
+        </div>
+        <div class="product" data-category="wood">
+            <img src="/photos/cashew1.jpg" alt="Cashew">
+            <h2>Cashews</h2>
+            <p>Variant: Natural</p>
+        </div>
+        <div class="product" data-category="soil">
+            <img src="/photos/coconuts.jpg" alt="Soil">
+            <h2>Coconuts</h2>
+            <p>Variant: Organic</p>
+        </div>
+        <div class="product" data-category="tanks">
+            <img src="/photos/banana.jpg" alt="Tank">
+            <h2>Bananas</h2>
+            <p>Variant: Large</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
