@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashews - Product Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Coconuts</h1>
+    </header>
+    <section class="filters">
+        <!-- <button onclick="filterProducts('all')">View All</button> -->
+        <button onclick="window.location.href='index.html'">View All</button>
+        <!-- <button onclick="filterProducts('rocks')">Karupatti</button> -->
+        <button onclick="window.location.href='karupatti.html'">Karupatti</button>
+        <!-- <button onclick="filterProducts('wood')">Cashews</button>
+        <button onclick="filterProducts('soil')">Coconuts</button>
+        <button onclick="filterProducts('tanks')">Bananas</button> -->
+        <button onclick="window.location.href='cashew.html'">Cashews</button>
+        <button onclick="window.location.href='coconut.html'">Coconuts</button>
+        <button onclick="window.location.href='banana.html'">Bananas</button>
+    </section>
+    <section class="product-detail">
+        <img src="/photos/coconuts.jpg" class="product-image" alt="Cashews">
+        <h2>Coconuts</h2>
+        <p><strong>Variant:</strong> Organic</p>
+        <p class="about-text">Coconuts are a versatile fruit rich in nutrients, providing hydration and essential vitamins, great for overall health and wellness.</p>
+        <div class="product-description">
+            
+            <p>Sourced directly from the lush coconut groves of Pollachi, our coconuts are renowned for their superior export-grade quality. Handpicked with care, each coconut is selected for its freshness, size, and nutrient density. Our coconuts meet international standards, making them ideal for global markets. Whether used for coconut water, milk, oil, or grated coconut, they offer unmatched taste and quality.</p>
+                
+            <div class="Key-features">
+                <strong>Key Features:</strong>
+                <div class="features">
+                    
+                   <p> Sourced from Premium Pollachi Farms</p> 
+                   <p> Export-Grade Quality – Fresh, Large & Nutrient-Rich</p>
+                   <p> Naturally Hydrating – High in Electrolytes</p>
+                   <p> Ideal for Culinary, Health & Beauty Uses</p>
+                    <p> 100% Organic & Chemical-Free</p>
+                </div>
+            </div>
+        </div>
+        <button class="back-button" onclick="goBack()">Back</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 EliteGate Exports | All rights reserved</p>
+    </footer>
+    <script>
+         // function goBack() {
+        //     window.history.back(); // Go back to the main page
+        // }
+        function goBack() {
+    window.location.href = "index.html"; // Redirect to the main page
+}
+    </script>
+</body>
+</html>

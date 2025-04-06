@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karupatti - Product Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Karupatti (Palm Jaggery)</h1>
+    </header>
+    <section class="filters">
+        <!-- <button onclick="filterProducts('all')">View All</button> -->
+        <button onclick="window.location.href='index.html'">View All</button>
+        <!-- <button onclick="filterProducts('rocks')">Karupatti</button> -->
+        <button onclick="window.location.href='karupatti.html'">Karupatti</button>
+        <!-- <button onclick="filterProducts('wood')">Cashews</button>
+        <button onclick="filterProducts('soil')">Coconuts</button>
+        <button onclick="filterProducts('tanks')">Bananas</button> -->
+        <button onclick="window.location.href='cashew.html'">Cashews</button>
+        <button onclick="window.location.href='coconut.html'">Coconuts</button>
+        <button onclick="window.location.href='banana.html'">Bananas</button>
+    </section>
+    <section class="product-detail">
+        <img src="/photos/karupatti.jpg" class="product-image" alt="Karupatti">
+        <h2>Karupatti</h2>
+        <p><strong>Variant:</strong> Premium</p>
+        <p class="about-text">Karupatti (Palm Jaggery) is a natural sweetener rich in iron and minerals, great for immunity.</p>
+        <div class="product-description">
+            
+            <p>Our Karupatti is sourced from the traditional palm groves of Selam, where it is crafted using age-old techniques without any chemicals or preservatives. This ensures its rich flavor, dark color, and soft texture. It meets premium export-grade standards, making it ideal for health-conscious consumers around the world.</p>
+            <div class="Key-features">
+                <strong>Key Features:</strong>
+                <div class="features">
+                     </p>Sourced from Selam’s Traditional Palm Groves</p>
+                    </p>Chemical-Free and 100% Natural</p>
+                    </p>Rich in Iron & Essential Minerals</p>
+                    </p>Perfect Alternative to Refined Sugar</p>
+                    </p>Export-Grade Quality – Soft, Pure & Nutrient-Rich</p>
+                </div>
+            </div>
+        </div>
+        <button class="back-button" onclick="goBack()">Back</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 EliteGate Exports | All rights reserved</p>
+    </footer>
+    <script>
+        // function goBack() {
+        //     window.history.back(); // Go back to the main page
+        // }
+        function goBack() {
+    window.location.href = "index.html"; // Redirect to the main page
+}
+    </script>
+</body>
+</html>

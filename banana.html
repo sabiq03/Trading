@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashews - Product Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Coconuts</h1>
+    </header>
+    <section class="filters">
+        <!-- <button onclick="filterProducts('all')">View All</button> -->
+        <button onclick="window.location.href='index.html'">View All</button>
+        <!-- <button onclick="filterProducts('rocks')">Karupatti</button> -->
+        <button onclick="window.location.href='karupatti.html'">Karupatti</button>
+        <!-- <button onclick="filterProducts('wood')">Cashews</button>
+        <button onclick="filterProducts('soil')">Coconuts</button>
+        <button onclick="filterProducts('tanks')">Bananas</button> -->
+        <button onclick="window.location.href='cashew.html'">Cashews</button>
+        <button onclick="window.location.href='coconut.html'">Coconuts</button>
+        <button onclick="window.location.href='banana.html'">Bananas</button>
+    </section>
+    <section class="product-detail">
+        <img src="/photos/banana.jpg" class="product-image" alt="Cashews">
+        <h2>Bananas</h2>
+        <p><strong>Variant:</strong> Organic</p>
+        <p class="about-text">Bananas are a natural energy booster, packed with potassium, fiber, and essential vitamins, great for digestion and heart health.</p>
+        <div class="product-description">
+            
+            <p>
+                Sourced from the fertile lands of Dindukallu, our premium bananas are grown organically with no artificial additives, ensuring natural sweetness and superior quality. Rich in potassium, fiber, and essential nutrients, these export-grade bananas are carefully selected to meet global standards. Perfect for health-conscious consumers, they support digestion, heart health, and sustainable farming practices. Choose nature’s finest—fresh, pure, and bursting with flavor!
+            </p>
+            <div class="Key-features">
+                <strong>Key Features:</strong>
+                <div class="features">
+                    <p>100% Organic & Chemical-Free</p>
+                    <p>Rich in Potassium and Fiber</p>
+                    <p>Hand-picked from Dindigul Farms</p>
+                    <p>Perfect for health-conscious consumers</p>
+                </div>
+            </div>
+        </div>
+        <button class="back-button" onclick="goBack()">Back</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 EliteGate Exports | All rights reserved</p>
+    </footer>
+    <script>
+         // function goBack() {
+        //     window.history.back(); // Go back to the main page
+        // }
+        function goBack() {
+    window.location.href = "index.html"; // Redirect to the main page
+}
+    </script>
+</body>
+</html>
